@@ -17,6 +17,8 @@ household_pwr_consum_study <- household_pwr_consum[good_cases,]
 #Plotting the histogram
 png(filename = "plot1.png", width=480, height=480)
 hist(household_pwr_consum_study[["Global_active_power"]],main="Global Active Power", xlab="Global Active Power (Kilowatts)", col="RED")
+
+#Closing the png device
 dev.off()
 
 #Clearing the workspace
