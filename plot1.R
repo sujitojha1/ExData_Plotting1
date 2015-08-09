@@ -18,3 +18,6 @@ household_pwr_consum_study <- household_pwr_consum[good_cases,]
 png(filename = "plot1.png", width=480, height=480)
 hist(household_pwr_consum_study[["Global_active_power"]],main="Global Active Power", xlab="Global Active Power (Kilowatts)", col="RED")
 dev.off()
+
+#Clearing the workspace
+rm(list = ls())
