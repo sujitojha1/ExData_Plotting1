@@ -1,4 +1,5 @@
 # CODE TO PLOT : GLOBAL ACTIVE POWER HISTOGRAM
+# Assignment code
 
 # Reading the data, household_power_consumption.txt
 household_pwr_consum <- read.csv("household_power_consumption.txt",sep = ";",colClasses=c("character","character", rep("numeric",7)),na.strings = "?")
